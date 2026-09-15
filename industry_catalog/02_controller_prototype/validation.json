@@ -1,0 +1,68 @@
+{
+  "id": "02_controller_prototype",
+  "title": "ControlPod prototype housing",
+  "category": "Functional prototypes",
+  "units": "millimeter",
+  "parts": 2,
+  "part_reports": {
+    "body": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 9244,
+      "volume_cm3": 42.28200225138977,
+      "dimensions_mm": [
+        114.0,
+        66.0,
+        25.0
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    },
+    "lid": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 5176,
+      "volume_cm3": 19.546034010007375,
+      "dimensions_mm": [
+        114.0,
+        66.0,
+        5.800000190734863
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    }
+  },
+  "print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "connected_parts": 2,
+    "triangles": 14420,
+    "volume_cm3": 61.82803708261647,
+    "dimensions_mm": [
+      114.0,
+      140.0,
+      25.0
+    ],
+    "unsupported_area_beyond_45_deg_mm2": 0.0
+  },
+  "cad_self_intersection_checked": true,
+  "assembly_collision_checked": true,
+  "step_roundtrip_valid": true,
+  "physical_tested": false,
+  "support_free_in_exported_orientation": true,
+  "details": {
+    "outer_envelope_mm": [
+      114.0,
+      66.0,
+      27.8
+    ],
+    "lip_clearance_per_side_mm": 0.25,
+    "nut_pocket_across_flats_mm": 5.8,
+    "PCB_standoff_pattern_mm": [
+      54.0,
+      30.0
+    ],
+    "hardware": "Four M3 bolts with nuts in the top-loaded hex pockets; screws for the selected PCB. Electronics, buttons and display are not included.",
+    "use": "Fit/ergonomic prototype with display/button cutouts and an open-rim service port. No ingress rating. Retain nuts temporarily while closing the lid."
+  }
+}

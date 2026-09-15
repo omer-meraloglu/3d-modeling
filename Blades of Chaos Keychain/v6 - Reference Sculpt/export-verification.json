@@ -1,0 +1,52 @@
+{
+  "one_piece_model": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 7.141387701060739,
+    "dimensions_mm": [
+      110.0,
+      42.3393698375221,
+      9.977519035339355
+    ],
+    "triangles": 1026810,
+    "3mf_units": "millimeter",
+    "3mf_objects": 1,
+    "through_openings": 3,
+    "STL_3MF_match": true
+  },
+  "one_piece_FDM_oriented": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 7.141387689601903,
+    "dimensions_mm": [
+      45.940101623535156,
+      41.788394927978516,
+      102.39176177978516
+    ],
+    "triangles": 1026810,
+    "3mf_units": "millimeter",
+    "3mf_objects": 1,
+    "through_openings": 3,
+    "STL_3MF_match": true
+  },
+  "output_model": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 7.141387689601903,
+    "dimensions_mm": [
+      45.940101623535156,
+      41.788394927978516,
+      102.39176177978516
+    ],
+    "triangles": 1026810,
+    "3mf_units": "millimeter",
+    "3mf_objects": 1,
+    "through_openings": 3,
+    "STL_3MF_match": true
+  },
+  "physical_print_tested": false,
+  "supports_required": true
+}

@@ -16,10 +16,177 @@ those files are not included in a Git clone. Use each product's documented build
 command to generate its exports, then run the preview or packaging scripts as
 needed. Source files, preview images and PDF guides are available in the repository.
 
+<!-- BEGIN INDUSTRY CATALOG DOCS -->
+## Industry catalog — architecture and landscapes
+
+**Folder:** [industry_catalog](industry_catalog/) · **Six executable CAD designs**
+cover all five requested application categories, with two architectural scenes.
+The geometry is newly authored and modeled in millimeters. Each product has a
+standalone `model.py` with exposed dimensions, STL/3MF print files, an assembled
+STEP file, an actual-CAD preview and verification reports.
+
+### Architectural editions
+
+![Courtyard office campus](industry_catalog/04_courtyard_architecture/preview.png)
+
+**Courtyard office campus:** a stepped three-wing office building with recessed
+windows, roof parapets, roof gardens, a central courtyard, benches, tree-lined
+side lawns, entrance paving and small massing cars. The default building uses
+1:200 scale with three, two and one floors. The model occupies
+180 × 140 × 54.16 mm and prints as one connected solid.
+
+[Print 3MF](industry_catalog/04_courtyard_architecture/output_model.3mf) ·
+[STL](industry_catalog/04_courtyard_architecture/output_model.stl) ·
+[Editable STEP](industry_catalog/04_courtyard_architecture/output_model.step) ·
+[Python source](industry_catalog/04_courtyard_architecture/model.py) ·
+[Overhead plan](industry_catalog/04_courtyard_architecture/plan-view.png) ·
+[Unpainted preview](industry_catalog/04_courtyard_architecture/unpainted-preview.png)
+
+![Terraced garden and pavilion](industry_catalog/05_terraced_landscape/preview.png)
+
+**Terraced garden and pavilion:** four contour terraces, eight entrance steps,
+a raised pavilion, a gabled cottage, a recessed pond with a shoreline curb,
+connected paths, twelve trees, benches and bollards. The default model occupies
+180 × 140 × 32.38 mm and prints as one connected solid. The nominal presentation
+scale is 1:200; all exposed geometry dimensions are printed millimeters.
+
+[Print 3MF](industry_catalog/05_terraced_landscape/output_model.3mf) ·
+[STL](industry_catalog/05_terraced_landscape/output_model.stl) ·
+[Editable STEP](industry_catalog/05_terraced_landscape/output_model.step) ·
+[Python source](industry_catalog/05_terraced_landscape/model.py) ·
+[Overhead plan](industry_catalog/05_terraced_landscape/plan-view.png) ·
+[Unpainted preview](industry_catalog/05_terraced_landscape/unpainted-preview.png)
+
+These are fictional presentation concepts. Small features are deliberately
+enlarged for printing, and the models are not construction documents. Trees
+use supported tapered canopies; facade recesses have sloped tops. Colors show
+an optional painted finish. The STL/3MF files contain single-material geometry.
+The pond is a modeled recess, not a functional water container.
+
+### Other application examples
+
+| Category | Model | Source | Print file | Preview |
+|---|---|---|---|---|
+| Jigs, fixtures and tooling | Datum drill jig for nominal 25 mm stock, with two steel-bushing seats and a datum stop | [Python](industry_catalog/01_drill_jig/model.py) | [3MF](industry_catalog/01_drill_jig/output_model.3mf) | [View](industry_catalog/01_drill_jig/preview.png) |
+| Functional prototypes | ControlPod controller housing with removable lid, display/button openings and PCB posts | [Python](industry_catalog/02_controller_prototype/model.py) | [3MF](industry_catalog/02_controller_prototype/output_model.3mf) | [View](industry_catalog/02_controller_prototype/preview.png) |
+| Replacement parts | Gusseted M18 sensor bracket with adjustable M5 mounting slots | [Python](industry_catalog/03_sensor_replacement/model.py) | [3MF](industry_catalog/03_sensor_replacement/output_model.3mf) | [View](industry_catalog/03_sensor_replacement/preview.png) |
+| Medical/dental demonstration | Generic 14-crown dental training arch, permanently marked DEMO | [Python](industry_catalog/06_dental_demo/model.py) | [3MF](industry_catalog/06_dental_demo/output_model.3mf) | [View](industry_catalog/06_dental_demo/preview.png) |
+
+The dental model is a **non-clinical display/training prop**, not patient-specific
+or anatomically validated. Do not use it intraorally, for aligner manufacture,
+surgical guidance, diagnosis, treatment or prosthetic fitting. It demonstrates
+CAD detailing only; ordinary filament is not specified for clinical contact.
+
+### Print and assembly
+
+Import the supplied STL in millimeters, or use the 3MF with explicit millimeter
+units. The plate layouts fit a 220 × 220 mm bed with 5 mm margins. Individual part
+STLs start at Z=0. The supplied poses pass the geometric 45° underside check;
+start with supports off and inspect your slicer's layer preview before printing.
+There is no bundled G-code or printer-specific process profile.
+
+- **Architectural scenes:** flat base down. For a first PLA trial, use a 0.4 mm
+  nozzle, 0.12–0.16 mm layers, three walls and 10–15% infill. Tree trunks are
+  1.6 mm diameter; handle the small features carefully. Use a brim if needed for
+  the broad base. A 0.25 mm nozzle can retain more of the facade detail.
+- **Jig:** use the exported flipped pose, fences upward. The stock channel is
+  25.50 mm, giving 0.25 mm per side around nominal 25 mm stock. The bushing bores
+  are 10.20 mm: a deliberate 0.10 mm radial slip allowance for separate nominal
+  10 mm OD steel sleeves. Confirm the actual bushings and retain them securely.
+  The gray bushings in the preview are reference-only, excluded from print/STEP
+  files. Clamp the stock and use steel sleeves before drilling; do not use bare
+  plastic as the drill bearing. M5 slots take suitable bolts/washers or clamps.
+- **Housing:** print the body upright and the lid exterior face down, as supplied.
+  The locating lip has 0.25 mm clearance per side. Four M3 nuts sit in top-loaded
+  5.8 mm across-flats pockets; retain them temporarily while fitting the lid.
+  Choose bolt lengths for the actual stack. PCB screws, buttons, display and
+  electronics are not included. The preview shows the lid exploded; STEP shows
+  the assembled housing. This prototype has no ingress rating.
+- **Sensor bracket:** base down. The nominal M18 seat has a 0.25 mm radial
+  clearance and a sloped roof for printing. Use the sensor's mounting nuts and
+  washers plus two M5 bolts. Confirm machine dimensions, temperature, vibration,
+  torque and loading before using this example as a replacement.
+- **Functional-part trial profiles:** PETG, 0.2 mm layers, five walls and 40–60%
+  infill are starting points for the jig/bracket; the housing can start at four
+  walls and 20–30%. These are untested starting settings, not load ratings.
+- **Dental demo:** base down. Use 0.12–0.16 mm layers for rounded crown details.
+  This is a handling/display sample only.
+
+### Customize and build without a GUI
+
+From the project root, create an environment once:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r industry_catalog/requirements.txt
+python industry_catalog/build_all.py --only 04 05 --previews
+```
+
+To build all six, run `python industry_catalog/build_all.py --previews`.
+Each `model.py` is self-contained and can also run independently from its folder:
+`python model.py`. It automatically exports `./output_model.stl`, `.3mf` and
+`.step`, plus named part STLs and validation data. Sources are never overwritten
+by the catalog builder. CAD generation needs no renderer, GUI, downloaded asset,
+network service or account.
+
+For architecture, edit the scale, floor counts, floor height, site size and tree
+parameters at the top of `04_courtyard_architecture/model.py`. For landscapes,
+edit the terrace rise, pavilion height, pond radii/depth and site size in
+`05_terraced_landscape/model.py`. The landscape scale variable labels the nominal
+presentation scale; it does not resize geometry. Keep adequate print detail and
+regenerate after changes. Parameter guards reject invalid or oversized defaults.
+
+`python industry_catalog/build_gallery.py` updates the offline visual catalog.
+`python industry_catalog/render_catalog.py` regenerates the previews from CAD
+mesh data written during each build. Rendering needs `clang++` with C++17 support
+(macOS Command Line Tools or a suitable Linux compiler), NumPy and Pillow;
+matplotlib supplies the Linux font fallback. It opens no application windows.
+`python industry_catalog/verify_catalog.py` independently checks exported STL and
+3MF files. `python industry_catalog/verify_variants.py` exercises three parameter
+changes in temporary directories without modifying the default exports.
+
+### Verification and delivery
+
+Each default has passed exact CAD validity and self-intersection checks, positive
+volume, exported STL manifold/winding checks, support-angle checks, assembled
+part collision checks and STEP re-import/volume comparison. An independent pass
+also verifies 3MF topology, units, bounds, facet degeneracy and agreement with STL.
+The dental exporter removes only zero-area/duplicate tessellation facets at
+sphere poles before validating the delivered STL bytes. It does not fill holes
+or move vertices.
+
+Additional passing cases: four rear floors on a 190 × 150 mm campus base; a
+landscape with 2.5 mm terraces, an 18 mm pavilion and a 190 mm-wide site; and
+0.30 mm housing lip clearance. Reports are in each product folder and in
+[catalog-verification.json](industry_catalog/catalog-verification.json) and
+[customization-verification.json](industry_catalog/customization-verification.json).
+CAD solid volume is not an estimate of filament consumption or print time.
+Physical prints, hardware fits and application-specific service tests remain
+pending; these checks do not establish medical or structural suitability.
+
+[Visual catalog](industry_catalog/index.html) ·
+[Full catalog preview](industry_catalog/catalog-preview.png) ·
+[Product metadata](industry_catalog/catalog.json) ·
+[Local delivery archive](industry_catalog/polukal-industry-catalog.zip)
+
+Rebuild the archive with `python industry_catalog/package_catalog.py`.
+It includes source, exports, previews and SHA-256 manifests. It contains no
+additional README. Generated meshes, CAD exports and the archive remain ignored
+by Git; the single README stays here at the project root.
+
+The categories were inspired by the
+[user-supplied business article](https://www.eufymake.com/blogs/business-ideas/best-3d-print-sell-profitable-items).
+It does not establish market demand or profitability for these particular models.
+The [FDA's overview of medical applications of 3D printing](https://www.fda.gov/medical-devices/3d-printing-medical-devices/medical-applications-3d-printing)
+provides context for distinguishing a generic demo from patient-specific devices.
+<!-- END INDUSTRY CATALOG DOCS -->
+
 ## Current Blades of Chaos deliverables
 
 | Route | What you make | Start file |
 |---|---|---|
+| Latest reference sculpt, v6 | One 110 mm FDM blade rebuilt from the supplied photograph, with pierced guard and fully wrapped grip | [Oriented 3MF](<Blades of Chaos Keychain/v6 - Reference Sculpt/output_model.3mf>) · [Source](<Blades of Chaos Keychain/v6 - Reference Sculpt/model.py>) · [Preview](<Blades of Chaos Keychain/v6 - Reference Sculpt/preview.png>) |
 | One-piece FDM, v5 | One fully sculpted 110 mm blade in a single print; slicer supports required | [Oriented 3MF](<Blades of Chaos Keychain/v5 - One-piece Print/output_model.3mf>) |
 | Bonded halves, v3 | One A + one mirrored B + 3 keys per blade; four halves make a pair | [One blade kit](<Blades of Chaos Keychain/v3 - Two-sided Assembly/output_model.3mf>) · [Two-blade kit](<Blades of Chaos Keychain/v3 - Two-sided Assembly/two_blades_print_plate.3mf>) |
 | One-piece metal, v4 | Solid casting master for a foundry | [Master STL](<Blades of Chaos Keychain/v4 - Metal Production/metal_casting_master.stl>) · [Turkish supplier brief](<Blades of Chaos Keychain/v4 - Metal Production/Metal_Sanayi_Uretim_Paketi_TR.pdf>) |
@@ -28,6 +195,7 @@ needed. Source files, preview images and PDF guides are available in the reposit
 
 Complete delivery archives:
 
+- [Latest reference sculpt kit, v6](<Blades of Chaos Keychain/polukal-blades-reference-sculpt-v6.zip>): source, reference photograph, final meshes, previews and export verification.
 - [One-piece FDM kit](<Blades of Chaos Keychain/polukal-blades-onepiece-fdm.zip>): oriented and neutral STL/3MF, parametric source, mesh previews and validation.
 - [Bonded print kit](<Blades of Chaos Keychain/polukal-blades-bonded-print-kit.zip>): mirrored halves, alignment keys, one/two-blade plates and assembly drawings.
 - [Metal supplier kit](<Blades of Chaos Keychain/polukal-blades-metal-supplier-kit.zip>): casting STL/3MF, faceted STEP, reference DXF and Turkish handoff PDF.
@@ -39,6 +207,57 @@ README files. Rebuild current archives with
 The original `hero_enclosure.py`, root enclosure exports, six-product `catalog/`,
 and earlier blade revisions are preserved. Root `output_model.stl` is the original
 enclosure, so use the linked blade-version folders for blade prints.
+
+## Reference sculpt from the supplied photograph - v6
+
+**Folder:** `Blades of Chaos Keychain/v6 - Reference Sculpt/`
+
+This is the latest one-piece FDM revision. The provided `reference.png` guides
+the broader swept blade, sparse branching sigils, beveled edge symbols,
+recessed orbital cavity, layered cheek and teeth, curled open guard, chased
+scales, pierced crown-shaped pommel and continuous helical grip. Geometry on
+the reverse face and around the grip is modeled in three dimensions. This is
+an interpretation of the photograph, not a recovered scan of the photographed
+object. v3 bonded halves and v4 metal files retain the earlier sculpt.
+
+- `output_model.3mf` / `.stl`: one complete blade, tilted 65° and rolled 12° for FDM.
+- `one_piece_model.3mf` / `.stl`: the same solid in its neutral pose.
+- `model.py`: self-contained generator with dimensions and feature controls at the top.
+- `validation.json` and `export-verification.json`: geometry and exported-file checks.
+- `preview.png`: actual front, reverse and print-orientation mesh views; colors represent an optional finish.
+
+The finished envelope is approximately 110 × 42.34 × 9.98 mm; the supplied FDM
+pose occupies 45.94 × 41.79 × 102.39 mm before supports or brim. The final mesh
+has 1,026,810 triangles. The keyring aperture is 4.60 mm. The pommel has a second
+decorative opening; the guard has a true through opening. The blade perimeter
+is blunt, with 1.80 mm thickness. Main engravings are 0.60 mm wide and 0.34 mm
+deep; smaller edge symbols are 0.48 mm wide and 0.24 mm deep. The final sculpt
+uses 0.08 mm sampling. Smaller texture is represented in the mesh but may be
+softened or lost on a 0.4 mm nozzle at this miniature scale.
+
+For the fine details, start with a calibrated 0.25 mm nozzle and 0.08–0.10 mm
+layers. Enable tree/organic supports, including beneath the curled guard,
+teeth, pommel and blade curves. Use a brim, inspect every unsupported island
+in the layer preview, and tune support interfaces for your printer and material.
+The STL/3MF files contain no generated supports or G-code. No physical print
+trial is claimed. Attach a real chain or keyring through the pommel; a chain is
+not part of the single-solid model. Print two copies for a pair of blades.
+
+```sh
+cd "Blades of Chaos Keychain/v6 - Reference Sculpt"
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python model.py --length 110 --pitch 0.08
+python verify_exports.py
+python render_preview.py
+```
+
+CadQuery checks the silhouette's engineering envelope. Constrained surface
+triangulation forms the sculpted blade and guard; a Manifold boolean operation
+fuses the radial helical grip. Validation checks closed topology, winding,
+connected volume and the three openings, then reloads both export formats.
+Previews use the actual mesh and the included headless C++ renderer.
 
 ## One-piece FDM printing - v5
 

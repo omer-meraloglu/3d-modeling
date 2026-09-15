@@ -1,0 +1,49 @@
+{
+  "id": "06_dental_demo",
+  "title": "Dental training arch",
+  "category": "Medical and dental: non-clinical demonstration",
+  "units": "millimeter",
+  "parts": 1,
+  "part_reports": {
+    "dental_demo": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 127622,
+      "volume_cm3": 26.120328931933777,
+      "dimensions_mm": [
+        83.9999999,
+        69.9999999,
+        15.359999656677246
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    }
+  },
+  "print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "connected_parts": 1,
+    "triangles": 127622,
+    "volume_cm3": 26.120329003561814,
+    "dimensions_mm": [
+      84.0,
+      70.0,
+      15.359999656677246
+    ],
+    "unsupported_area_beyond_45_deg_mm2": 0.0
+  },
+  "cad_self_intersection_checked": true,
+  "assembly_collision_checked": true,
+  "step_roundtrip_valid": true,
+  "physical_tested": false,
+  "support_free_in_exported_orientation": true,
+  "details": {
+    "intended_use": "Generic dental education and display prop only. Fourteen illustrative crowns; not anatomically validated.",
+    "clinical_use": false,
+    "patient_specific": false,
+    "restriction": "Do not use intraorally, for aligner manufacture, surgical guidance, diagnosis, treatment or fitting prostheses.",
+    "print": "Base flat on bed. Ordinary filament is suitable only for handling/display of this non-clinical prop.",
+    "identification": "Permanent recessed DEMO mark on the base.",
+    "crown_count": 14
+  }
+}

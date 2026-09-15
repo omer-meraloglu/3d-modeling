@@ -1,0 +1,336 @@
+{
+  "brand": "polukal",
+  "catalog": "Industry applications",
+  "contents": [
+    {
+      "path": "01_drill_jig/drill_jig.stl",
+      "bytes": 233884,
+      "sha256": "ef6cc80af25f271c855146a694de8a9fc5861554602ffcb1757092152aecc0c8"
+    },
+    {
+      "path": "01_drill_jig/export-verification.json",
+      "bytes": 857,
+      "sha256": "5e82fa2b0d5c67d4f5d950f0068cb8556c6de64f06d354a3e4f4db5e488d51c6"
+    },
+    {
+      "path": "01_drill_jig/model.py",
+      "bytes": 10059,
+      "sha256": "44d619fa1d2ae6888e67f002c45150b4e238a3777f55f2baa51dd95fca99ab94"
+    },
+    {
+      "path": "01_drill_jig/output_model.3mf",
+      "bytes": 48312,
+      "sha256": "fa3db93147fba6be35b2bbc40fe235af3bd1f07ced6afcbed117fbb125c203c1"
+    },
+    {
+      "path": "01_drill_jig/output_model.step",
+      "bytes": 189678,
+      "sha256": "fe6f3b1d03b9e0e9f5cfbeb2b4bb65a8484117f1cbf085a4c30538c8c0bdf688"
+    },
+    {
+      "path": "01_drill_jig/output_model.stl",
+      "bytes": 233884,
+      "sha256": "2d20a82b87bdaf8a647a0cf9ad641fba48abeb2d636b282f19cfeca7fd5121c2"
+    },
+    {
+      "path": "01_drill_jig/preview.png",
+      "bytes": 104295,
+      "sha256": "30f726ad2e0584c4061bad817bd23972834aedcf5cc51c23ba035c176afe707b"
+    },
+    {
+      "path": "01_drill_jig/validation.json",
+      "bytes": 1625,
+      "sha256": "d895fe4a37c193849a60118187980c6754d84a7541773e262a7a2ab074161eda"
+    },
+    {
+      "path": "02_controller_prototype/body.stl",
+      "bytes": 462284,
+      "sha256": "69d444a7e2486f794c17b85a58eb63c8b81d1bbd0704d08c83c2196c3b64ced7"
+    },
+    {
+      "path": "02_controller_prototype/export-verification.json",
+      "bytes": 937,
+      "sha256": "1eee3c6bd207e87a0693fffcaa8b113337f5be8cde079453aa9e19984aed7686"
+    },
+    {
+      "path": "02_controller_prototype/lid.stl",
+      "bytes": 258884,
+      "sha256": "edf012d86039d4d0c33ee3310409420201fc964c083e0202372274ca9c612726"
+    },
+    {
+      "path": "02_controller_prototype/model.py",
+      "bytes": 10778,
+      "sha256": "dd34617317590cb3ba9151bea396760183c0b6f90574efde8451ed26defdc2e6"
+    },
+    {
+      "path": "02_controller_prototype/output_model.3mf",
+      "bytes": 144302,
+      "sha256": "034f9f16bf3afd23de0d715c138be0f056ea17b9f26c5a631486a65a861ba1a4"
+    },
+    {
+      "path": "02_controller_prototype/output_model.step",
+      "bytes": 418558,
+      "sha256": "ab4c454717c98ea0d568f81bd27cc75bd1b099099b340da7eba39c6018f3ef00"
+    },
+    {
+      "path": "02_controller_prototype/output_model.stl",
+      "bytes": 721084,
+      "sha256": "9225533c320920f0436c035e173f3d0675880e3825e0af6449ca373663f01eef"
+    },
+    {
+      "path": "02_controller_prototype/preview.png",
+      "bytes": 92124,
+      "sha256": "77398afd06b00c05962fdd62e0f6bd7a13754e574a741c881432c24d3d7908d8"
+    },
+    {
+      "path": "02_controller_prototype/validation.json",
+      "bytes": 1803,
+      "sha256": "9988df21f3ec46b9d1a048d018216dd9ddb1d40af3366aaa3296343947f4b125"
+    },
+    {
+      "path": "03_sensor_replacement/export-verification.json",
+      "bytes": 861,
+      "sha256": "5079a4a4a63be333f7fca0a235b0c564260bdce2962b9225fefd6a0f04ec133d"
+    },
+    {
+      "path": "03_sensor_replacement/model.py",
+      "bytes": 9704,
+      "sha256": "cdfa1acafdf12577d340973e47bc964bb519e6d313a302f393d228e68faa8fcf"
+    },
+    {
+      "path": "03_sensor_replacement/output_model.3mf",
+      "bytes": 24167,
+      "sha256": "914c17205a78c2581bfb9e2380ba64e09e37dd92df7887b03a49aa4cb4e49fab"
+    },
+    {
+      "path": "03_sensor_replacement/output_model.step",
+      "bytes": 129443,
+      "sha256": "a9667b3b2136ddac7fc48dfd63f1081a13e6e3e7d8f02678ba1f93eb514f8280"
+    },
+    {
+      "path": "03_sensor_replacement/output_model.stl",
+      "bytes": 112484,
+      "sha256": "95271d55719311d929f8b6c21461924082b2d0a52d867abe0aae5a7ea597f881"
+    },
+    {
+      "path": "03_sensor_replacement/preview.png",
+      "bytes": 95301,
+      "sha256": "4eb0ae86050d46f077375825415b6489715d0be7cfdd7d9ded29b6a9024695c8"
+    },
+    {
+      "path": "03_sensor_replacement/sensor_bracket.stl",
+      "bytes": 112484,
+      "sha256": "5eec0c2bbb54554b356a9354b1a7565cb9a0b5f3b169f554ea95454b0586e7f5"
+    },
+    {
+      "path": "03_sensor_replacement/validation.json",
+      "bytes": 1415,
+      "sha256": "364523b64706e08808000647dadf241c1e038eaa605c30c15e5bd043b7d22f80"
+    },
+    {
+      "path": "04_courtyard_architecture/courtyard_site.stl",
+      "bytes": 2340284,
+      "sha256": "d7e77de47dbe859084fd97d0ab8a5a3028d560ee525ef0926a5ae0b3babe80cd"
+    },
+    {
+      "path": "04_courtyard_architecture/export-verification.json",
+      "bytes": 877,
+      "sha256": "b89e1471db033c21a7d0c1f1760818d770fecc9856cd065e0be41c4eedd516bd"
+    },
+    {
+      "path": "04_courtyard_architecture/model.py",
+      "bytes": 14895,
+      "sha256": "5d76539e6a77267e2bcbe450c2c9259db510526fd6bdb6e4db7586b1745be961"
+    },
+    {
+      "path": "04_courtyard_architecture/output_model.3mf",
+      "bytes": 472450,
+      "sha256": "1cf28ab7ce4817af27e395d8c646ef6a83feb26c589d021de835a74050fe0c33"
+    },
+    {
+      "path": "04_courtyard_architecture/output_model.step",
+      "bytes": 3682763,
+      "sha256": "0de61bcebe46b276713be1b671ee4eea1becc118b2b16e02db4d6254ba697289"
+    },
+    {
+      "path": "04_courtyard_architecture/output_model.stl",
+      "bytes": 2340284,
+      "sha256": "61bf8e660b0080c460a3399193ba5fdfc0dfa8edb10993ba2a27c997e895f8ea"
+    },
+    {
+      "path": "04_courtyard_architecture/plan-view.png",
+      "bytes": 138862,
+      "sha256": "242d63357b40f7f8c03e594ab7acd49ce587100e06e3d7beb20bfc4c360f3613"
+    },
+    {
+      "path": "04_courtyard_architecture/preview.png",
+      "bytes": 358121,
+      "sha256": "daee93638afb78fa39bb64fac00b64f04cc88a5b069715e7ff8448955014b4f6"
+    },
+    {
+      "path": "04_courtyard_architecture/unpainted-preview.png",
+      "bytes": 443385,
+      "sha256": "a33c62cebdb0eba31082c174ebde88100bb985363b8c7d23d532ad3e1b09082a"
+    },
+    {
+      "path": "04_courtyard_architecture/validation.json",
+      "bytes": 1680,
+      "sha256": "152c35bc64d5e097e55acc7339de7e159a0a8636de34fbf59ceaa71ba3e5ecfb"
+    },
+    {
+      "path": "05_terraced_landscape/export-verification.json",
+      "bytes": 879,
+      "sha256": "8bb1f45af5ad6cc7de93d5797e38fed8ecfe4d6c9f0702b293ee9a8801773927"
+    },
+    {
+      "path": "05_terraced_landscape/model.py",
+      "bytes": 15330,
+      "sha256": "5978de405d6501bdebd27908e21938633e2f0d3d9ba5358160985e0d92886f7d"
+    },
+    {
+      "path": "05_terraced_landscape/output_model.3mf",
+      "bytes": 546302,
+      "sha256": "f2800e6444fd4b475a63287e3637e4b72232a31f67a8ca5c59f0138e8ddbd2cf"
+    },
+    {
+      "path": "05_terraced_landscape/output_model.step",
+      "bytes": 1466597,
+      "sha256": "4054120f96d591c0b3b7aef642916e5bddaa24184a9d556c9908480dd2cc7086"
+    },
+    {
+      "path": "05_terraced_landscape/output_model.stl",
+      "bytes": 2321684,
+      "sha256": "5ba2ba941ee30e1e5cce82695ea8d7b75c0aeb4174ea4624ab5635de6bd715b5"
+    },
+    {
+      "path": "05_terraced_landscape/plan-view.png",
+      "bytes": 436127,
+      "sha256": "928172b917c8820cca6f0e39925ce00b0e559f5859ea5057b7b17afd2d00fc67"
+    },
+    {
+      "path": "05_terraced_landscape/preview.png",
+      "bytes": 389990,
+      "sha256": "51a71445072cd0f6a9a48fa7b70f49d7507ec02d6c8c57d3cbaa68ed6aecd580"
+    },
+    {
+      "path": "05_terraced_landscape/terraced_garden.stl",
+      "bytes": 2321684,
+      "sha256": "dbfbcaa547bb8f4319a096518b1c591de8c0edef35efc1ddc4f59666bc23a201"
+    },
+    {
+      "path": "05_terraced_landscape/unpainted-preview.png",
+      "bytes": 539944,
+      "sha256": "37a7a97660a98973cc1d130edd9f30aa4eaf135e51d164a000ee3020ee22d0cc"
+    },
+    {
+      "path": "05_terraced_landscape/validation.json",
+      "bytes": 1634,
+      "sha256": "c5776739ed6506972e1823bcf49d82233019c9899876e086c301032925c2d596"
+    },
+    {
+      "path": "06_dental_demo/dental_demo.stl",
+      "bytes": 6381184,
+      "sha256": "1c2951beb6d216f34423cb7181b7a90f97867a034b7372dbd6d3275dae3c93b6"
+    },
+    {
+      "path": "06_dental_demo/export-verification.json",
+      "bytes": 874,
+      "sha256": "5d7e6188f9634636a69e45da3f3973427123677f72bcb12401cb520ed6df0a42"
+    },
+    {
+      "path": "06_dental_demo/model.py",
+      "bytes": 12925,
+      "sha256": "fbc8d776dc25325892ed8d64f0afed0a46dfd8ce308c151891eeeb8a7d98f4df"
+    },
+    {
+      "path": "06_dental_demo/output_model.3mf",
+      "bytes": 1641567,
+      "sha256": "4dfd26c160c64fea318f43d98417a40d7f9543ccc025bc3ad6e73f4ba61a7c42"
+    },
+    {
+      "path": "06_dental_demo/output_model.step",
+      "bytes": 1089488,
+      "sha256": "7efec0a3a6a81ec1a0b56041a7be157095dd8fb6b3d2eb2b547327983be7eacd"
+    },
+    {
+      "path": "06_dental_demo/output_model.stl",
+      "bytes": 6381184,
+      "sha256": "c2f00d31e42165dbeeff96e393d59995a696714e67ed5821fec57cd5e8780ed9"
+    },
+    {
+      "path": "06_dental_demo/preview.png",
+      "bytes": 259229,
+      "sha256": "1511d5fefbcb377f73de0c69079be76dd2f62b2bbf7f422dfaae3d0a2e450562"
+    },
+    {
+      "path": "06_dental_demo/validation.json",
+      "bytes": 1551,
+      "sha256": "f2893b1f3fbac0bdfe969948ae4da2e9e07e5fe8bedf25f68c1f3790b2c239c8"
+    },
+    {
+      "path": "build_all.py",
+      "bytes": 1282,
+      "sha256": "49bb46744f7819e60f472397a596b0b31ab8c0e5ac50896f3a03dcc2c8dbec37"
+    },
+    {
+      "path": "build_gallery.py",
+      "bytes": 6362,
+      "sha256": "12dcddc115e467f08c06cd1d6aeb67a69f6f9e3cf148fac444ca9bb71784deab"
+    },
+    {
+      "path": "catalog-preview.png",
+      "bytes": 830859,
+      "sha256": "472586c0e5f24f4570485eae04dee1b05ca2b429a73f81480a2a8b2267e9810c"
+    },
+    {
+      "path": "catalog-verification.json",
+      "bytes": 5736,
+      "sha256": "9eb96c131eaf4e7e2286177619101aa354a2aaf586503cba772312b528245bf3"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 9903,
+      "sha256": "078d73b35a46538b40a27ad7e82e39d2c987e2b93d68b84cd671580ef5bbcaf3"
+    },
+    {
+      "path": "customization-verification.json",
+      "bytes": 6266,
+      "sha256": "aaadd15212799b86a5cd71602d83286f1e44943a3b466b35ba96c5524b73b959"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13467,
+      "sha256": "3695a304e026fb8d8a05f7ab7b3ddaa2bb210f3537b7f4fcf9ca2a39e130302f"
+    },
+    {
+      "path": "package_catalog.py",
+      "bytes": 2208,
+      "sha256": "fcf18d7645bc04721019f0da842068c9b7606e3c45d26a656fd6ace74627832b"
+    },
+    {
+      "path": "rasterizer.cpp",
+      "bytes": 5434,
+      "sha256": "3a5cbd0d24753ad05a9b004ab7e43a7fb4fe1caf040f3e51129298fa572f545d"
+    },
+    {
+      "path": "render_catalog.py",
+      "bytes": 7016,
+      "sha256": "926e0b6803be3039f9143ec1f773f46a76cbeb128ec0b5913bb4c12c3cd4a6de"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 73,
+      "sha256": "98b280275bd597433153e7b991538c9e3fd27eb8f4c563cbd7f434c13670a197"
+    },
+    {
+      "path": "verify_catalog.py",
+      "bytes": 3432,
+      "sha256": "3fa88e889dc99147ce8b3c8d73f23039e7d83eadd1d47015349259292f7153ed"
+    },
+    {
+      "path": "verify_variants.py",
+      "bytes": 1394,
+      "sha256": "c48783e4efc5ec2f9ca5fe65b21ac124b9f4ffbcad289b5f33e192fd49682460"
+    }
+  ]
+}

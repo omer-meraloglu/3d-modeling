@@ -1,0 +1,97 @@
+{
+  "product": "polukal Blades of Chaos miniature keychain",
+  "revision": "v6 - Reference Sculpt",
+  "units": "millimeter",
+  "nominal_length_mm": 110.0,
+  "start_file": "output_model.3mf",
+  "physical_production_tested": false,
+  "project_documentation": "3d-modeling/README.md",
+  "files": {
+    "FDM-orientation-preview.png": {
+      "bytes": 320112,
+      "sha256": "8fb6d30eb513038819469c26d698bfe43d2ee176175689b688423fec4380fb62"
+    },
+    "export-verification.json": {
+      "bytes": 1206,
+      "sha256": "7329274d25bb39ef58aa824a082d2160e19da63677847ffac315226c1a0b400c"
+    },
+    "model.py": {
+      "bytes": 31444,
+      "sha256": "90673b5b6caaa1d913456a51b74bf9866bb3afda976ce1257360b0de8197fde3"
+    },
+    "one-piece-beauty.png": {
+      "bytes": 466062,
+      "sha256": "9946d8508470183bd55185c0cf8a34a698b1d896119c4a8b794f90eba039c776"
+    },
+    "one_piece_FDM_oriented.3mf": {
+      "bytes": 15272311,
+      "sha256": "86ce919f6e2f1b244cd43ddc8ec01d3e07ccb00487e0913996047fd6be8387e3"
+    },
+    "one_piece_FDM_oriented.mesh.npz": {
+      "bytes": 15117373,
+      "sha256": "a7e6c6b8e7aefc5fe0ff089ac565884c835ef13459a91444d0a61477c61a708a"
+    },
+    "one_piece_FDM_oriented.stl": {
+      "bytes": 51340584,
+      "sha256": "664936dfa28afbfe5eadf3caf4ce44d00514d945013ebb541c97c246c0843413"
+    },
+    "one_piece_model.3mf": {
+      "bytes": 11381263,
+      "sha256": "eb1fd3c84581dca173610be23252a69ab9d4989573d1b14c63fa655dd65f10a8"
+    },
+    "one_piece_model.mesh.npz": {
+      "bytes": 7578455,
+      "sha256": "a3a5c782751490dc691b44d812bfe998a482d1a2128e331a637ece002fa39373"
+    },
+    "one_piece_model.stl": {
+      "bytes": 51340584,
+      "sha256": "8394c153a5cecec0c2f549f60373e20d1e409a5e3cdaa6de0d78e95501800a79"
+    },
+    "output_model.3mf": {
+      "bytes": 15272307,
+      "sha256": "c98a0f2fac697553a5d299c6a2a76dbfeead41d26325bd3f99f5cb2d736208bc"
+    },
+    "output_model.mesh.npz": {
+      "bytes": 15117373,
+      "sha256": "a7e6c6b8e7aefc5fe0ff089ac565884c835ef13459a91444d0a61477c61a708a"
+    },
+    "output_model.stl": {
+      "bytes": 51340584,
+      "sha256": "664936dfa28afbfe5eadf3caf4ce44d00514d945013ebb541c97c246c0843413"
+    },
+    "preview.png": {
+      "bytes": 746842,
+      "sha256": "7b2caa511a41128fed4fdef6efbe81b739129f1dc4ff1a1a5d54988fd4ae06af"
+    },
+    "rasterizer.cpp": {
+      "bytes": 5433,
+      "sha256": "724b29fb9b1569e96f02728bbd349c49d11423685301ecbc951040dea7cb6a86"
+    },
+    "reference.png": {
+      "bytes": 1550227,
+      "sha256": "20787461dbfd4699163ea9079e295efff82875254e8e21557d19ac73e458a4b9"
+    },
+    "render_preview.py": {
+      "bytes": 6689,
+      "sha256": "4685e6abb2e66bfcefb4f9562f13f9924f7b18a822dc275449db2cf0215243d7"
+    },
+    "requirements.txt": {
+      "bytes": 139,
+      "sha256": "a12e53dcfb1c3393c6def12e859b91b6fa8a25106cbad2065e2bdb9cd85d076b"
+    },
+    "reverse-face-preview.png": {
+      "bytes": 426409,
+      "sha256": "829df37002e1301bdfcfe618a00fead4c9f359bfac8106e592c60148572df846"
+    },
+    "validation.json": {
+      "bytes": 1416,
+      "sha256": "4acca487f21c14e28c0d6912db62b3e4604e2e33552b0b1092b340aba2378849"
+    },
+    "verify_exports.py": {
+      "bytes": 2323,
+      "sha256": "0bc9f7c2bd1b013b1131b30a8d7e7b5cd46ba822a559dbd62ba7dd5ef01bacea"
+    }
+  },
+  "slicer_supports_required": true,
+  "supports_and_gcode_included": false
+}

@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "model.py": "5978de405d6501bdebd27908e21938633e2f0d3d9ba5358160985e0d92886f7d",
+    "output_model.3mf": "f2800e6444fd4b475a63287e3637e4b72232a31f67a8ca5c59f0138e8ddbd2cf",
+    "output_model.step": "4054120f96d591c0b3b7aef642916e5bddaa24184a9d556c9908480dd2cc7086",
+    "output_model.stl": "5ba2ba941ee30e1e5cce82695ea8d7b75c0aeb4174ea4624ab5635de6bd715b5",
+    "terraced_garden.stl": "dbfbcaa547bb8f4319a096518b1c591de8c0edef35efc1ddc4f59666bc23a201"
+  },
+  "reloaded_3mf_objects": 1,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    180.0,
+    140.0,
+    32.380001068115234
+  ],
+  "triangles": 46432,
+  "physical_tested": false
+}

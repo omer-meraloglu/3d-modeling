@@ -1,0 +1,56 @@
+{
+  "id": "04_courtyard_architecture",
+  "title": "Courtyard office campus",
+  "category": "Architectural models and landscapes",
+  "units": "millimeter",
+  "parts": 1,
+  "part_reports": {
+    "courtyard_site": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 46804,
+      "volume_cm3": 267.97356500373803,
+      "dimensions_mm": [
+        180.0,
+        140.0,
+        54.15999984741211
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    }
+  },
+  "print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "connected_parts": 1,
+    "triangles": 46804,
+    "volume_cm3": 267.9735644175088,
+    "dimensions_mm": [
+      180.0,
+      140.0,
+      54.15999984741211
+    ],
+    "unsupported_area_beyond_45_deg_mm2": 0.0
+  },
+  "cad_self_intersection_checked": true,
+  "assembly_collision_checked": true,
+  "step_roundtrip_valid": true,
+  "physical_tested": false,
+  "support_free_in_exported_orientation": true,
+  "details": {
+    "architectural_scale": "1:200",
+    "site_mm": [
+      180.0,
+      140.0
+    ],
+    "floor_height_real_mm": 3000.0,
+    "floors": [
+      3,
+      2,
+      1
+    ],
+    "features": "Three stepped building wings, recessed glazing, floor joints, roof gardens, parapets, plant room, courtyard, eight trees, paving, benches, entrance steps and cars.",
+    "representation": "Fictional concept site; openings and landscape details use minimum printable feature sizes. Preview colors are optional paint/material suggestions.",
+    "print": "Single connected model; flat site base on bed. 0.4 mm nozzle / 0.12-0.16 mm layers is a starting point; verify in slicer."
+  }
+}

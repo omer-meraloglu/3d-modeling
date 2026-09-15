@@ -1,0 +1,26 @@
+{
+  "files_sha256": {
+    "body.stl": "69d444a7e2486f794c17b85a58eb63c8b81d1bbd0704d08c83c2196c3b64ced7",
+    "lid.stl": "edf012d86039d4d0c33ee3310409420201fc964c083e0202372274ca9c612726",
+    "model.py": "dd34617317590cb3ba9151bea396760183c0b6f90574efde8451ed26defdc2e6",
+    "output_model.3mf": "034f9f16bf3afd23de0d715c138be0f056ea17b9f26c5a631486a65a861ba1a4",
+    "output_model.step": "ab4c454717c98ea0d568f81bd27cc75bd1b099099b340da7eba39c6018f3ef00",
+    "output_model.stl": "9225533c320920f0436c035e173f3d0675880e3825e0af6449ca373663f01eef"
+  },
+  "reloaded_3mf_objects": 2,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    114.0,
+    140.0,
+    25.0
+  ],
+  "triangles": 14420,
+  "physical_tested": false
+}

@@ -1,0 +1,48 @@
+{
+  "version": 6,
+  "reference": "reference.png supplied by user",
+  "nominal_length_mm": 110.0,
+  "mesh_pitch_mm": 0.08,
+  "model": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 7.141387701060739,
+    "dimensions_mm": [
+      110.0,
+      42.3393698375221,
+      9.977519035339355
+    ],
+    "triangles": 1026810,
+    "one_connected_solid": true,
+    "self_intersections_excluded_by_construction": true,
+    "blunt_blade_edge_thickness_mm": 1.8,
+    "keyring_hole_diameter_mm": 4.6,
+    "minimum_keyring_ligament_mm": 2.0228701261799515,
+    "true_through_openings": 3,
+    "continuous_helical_grip": true,
+    "main_engraving_width_mm": 0.6,
+    "main_engraving_depth_mm": 0.34,
+    "cad_envelope_valid": true
+  },
+  "fdm_orientation": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 7.141387689601903,
+    "dimensions_mm": [
+      45.940101623535156,
+      41.788394927978516,
+      102.39176177978516
+    ],
+    "triangles": 1026810,
+    "slicer_supports_required": true,
+    "downward_area_beyond_45_deg_mm2": 397.9322131160094,
+    "tilt_from_bed_deg": 65.0,
+    "roll_deg": 12.0
+  },
+  "supports_or_gcode_included": false,
+  "physical_print_tested": false,
+  "chain": "Attach separate hardware through the pommel; chain not modeled.",
+  "fine_surface_texture_may_not_resolve_with_0_4_mm_nozzle": true
+}

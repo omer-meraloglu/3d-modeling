@@ -1,0 +1,199 @@
+[
+  {
+    "product": "04_courtyard_architecture",
+    "changes": {
+      "REAR_FLOORS": 4,
+      "SITE_LENGTH": 190.0,
+      "SITE_WIDTH": 150.0
+    },
+    "validation": {
+      "id": "04_courtyard_architecture",
+      "title": "Courtyard office campus",
+      "category": "Architectural models and landscapes",
+      "units": "millimeter",
+      "parts": 1,
+      "part_reports": {
+        "courtyard_site": {
+          "watertight": true,
+          "consistent_winding": true,
+          "connected_parts": 1,
+          "triangles": 47252,
+          "volume_cm3": 309.4956278331327,
+          "dimensions_mm": [
+            190.0,
+            150.0,
+            69.16000366210938
+          ],
+          "unsupported_area_beyond_45_deg_mm2": 0.0
+        }
+      },
+      "print_plate": {
+        "watertight": true,
+        "consistent_winding": true,
+        "connected_parts": 1,
+        "triangles": 47252,
+        "volume_cm3": 309.49562758188415,
+        "dimensions_mm": [
+          190.0,
+          150.0,
+          69.16000366210938
+        ],
+        "unsupported_area_beyond_45_deg_mm2": 0.0
+      },
+      "cad_self_intersection_checked": true,
+      "assembly_collision_checked": true,
+      "step_roundtrip_valid": true,
+      "physical_tested": false,
+      "support_free_in_exported_orientation": true,
+      "details": {
+        "architectural_scale": "1:200",
+        "site_mm": [
+          190.0,
+          150.0
+        ],
+        "floor_height_real_mm": 3000.0,
+        "floors": [
+          4,
+          2,
+          1
+        ],
+        "features": "Three stepped building wings, recessed glazing, floor joints, roof gardens, parapets, plant room, courtyard, eight trees, paving, benches, entrance steps and cars.",
+        "representation": "Fictional concept site; openings and landscape details use minimum printable feature sizes. Preview colors are optional paint/material suggestions.",
+        "print": "Single connected model; flat site base on bed. 0.4 mm nozzle / 0.12-0.16 mm layers is a starting point; verify in slicer."
+      }
+    }
+  },
+  {
+    "product": "05_terraced_landscape",
+    "changes": {
+      "TERRACE_RISE": 2.5,
+      "PAVILION_HEIGHT": 18.0,
+      "SITE_LENGTH": 190.0
+    },
+    "validation": {
+      "id": "05_terraced_landscape",
+      "title": "Terraced garden and pavilion",
+      "category": "Architectural models and landscapes",
+      "units": "millimeter",
+      "parts": 1,
+      "part_reports": {
+        "terraced_garden": {
+          "watertight": true,
+          "consistent_winding": true,
+          "connected_parts": 1,
+          "triangles": 46390,
+          "volume_cm3": 152.59879281358872,
+          "dimensions_mm": [
+            189.9999999,
+            139.9999999,
+            33.380001068115234
+          ],
+          "unsupported_area_beyond_45_deg_mm2": 0.0
+        }
+      },
+      "print_plate": {
+        "watertight": true,
+        "consistent_winding": true,
+        "connected_parts": 1,
+        "triangles": 46390,
+        "volume_cm3": 152.59879289124768,
+        "dimensions_mm": [
+          190.0,
+          140.0,
+          33.380001068115234
+        ],
+        "unsupported_area_beyond_45_deg_mm2": 0.0
+      },
+      "cad_self_intersection_checked": true,
+      "assembly_collision_checked": true,
+      "step_roundtrip_valid": true,
+      "physical_tested": false,
+      "support_free_in_exported_orientation": true,
+      "details": {
+        "architectural_scale": "1:200",
+        "site_mm": [
+          190.0,
+          140.0
+        ],
+        "terrain_height_mm": 10.0,
+        "features": "Four landscape terraces, raised pavilion, gabled cottage, recessed pond, shoreline curb, linked paths, eight steps, twelve trees, benches and bollards.",
+        "representation": "Fictional landscape concept with deliberately enlarged print details. Pond is a modeled recess, not a functional water container. Preview colors show an optional painted finish.",
+        "print": "Single connected terrain/site model; flat base on bed, no slicer supports in the default pose."
+      }
+    }
+  },
+  {
+    "product": "02_controller_prototype",
+    "changes": {
+      "FIT": 0.3
+    },
+    "validation": {
+      "id": "02_controller_prototype",
+      "title": "ControlPod prototype housing",
+      "category": "Functional prototypes",
+      "units": "millimeter",
+      "parts": 2,
+      "part_reports": {
+        "body": {
+          "watertight": true,
+          "consistent_winding": true,
+          "connected_parts": 1,
+          "triangles": 9244,
+          "volume_cm3": 42.28200225138977,
+          "dimensions_mm": [
+            114.0,
+            66.0,
+            25.0
+          ],
+          "unsupported_area_beyond_45_deg_mm2": 0.0
+        },
+        "lid": {
+          "watertight": true,
+          "consistent_winding": true,
+          "connected_parts": 1,
+          "triangles": 5176,
+          "volume_cm3": 19.544047504131036,
+          "dimensions_mm": [
+            114.0,
+            66.0,
+            5.800000190734863
+          ],
+          "unsupported_area_beyond_45_deg_mm2": 0.0
+        }
+      },
+      "print_plate": {
+        "watertight": true,
+        "consistent_winding": true,
+        "connected_parts": 2,
+        "triangles": 14420,
+        "volume_cm3": 61.82605274420401,
+        "dimensions_mm": [
+          114.0,
+          140.0,
+          25.0
+        ],
+        "unsupported_area_beyond_45_deg_mm2": 0.0
+      },
+      "cad_self_intersection_checked": true,
+      "assembly_collision_checked": true,
+      "step_roundtrip_valid": true,
+      "physical_tested": false,
+      "support_free_in_exported_orientation": true,
+      "details": {
+        "outer_envelope_mm": [
+          114.0,
+          66.0,
+          27.8
+        ],
+        "lip_clearance_per_side_mm": 0.3,
+        "nut_pocket_across_flats_mm": 5.8,
+        "PCB_standoff_pattern_mm": [
+          54.0,
+          30.0
+        ],
+        "hardware": "Four M3 bolts with nuts in the top-loaded hex pockets; screws for the selected PCB. Electronics, buttons and display are not included.",
+        "use": "Fit/ergonomic prototype with display/button cutouts and an open-rim service port. No ingress rating. Retain nuts temporarily while closing the lid."
+      }
+    }
+  }
+]

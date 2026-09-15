@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "dental_demo.stl": "1c2951beb6d216f34423cb7181b7a90f97867a034b7372dbd6d3275dae3c93b6",
+    "model.py": "fbc8d776dc25325892ed8d64f0afed0a46dfd8ce308c151891eeeb8a7d98f4df",
+    "output_model.3mf": "4dfd26c160c64fea318f43d98417a40d7f9543ccc025bc3ad6e73f4ba61a7c42",
+    "output_model.step": "7efec0a3a6a81ec1a0b56041a7be157095dd8fb6b3d2eb2b547327983be7eacd",
+    "output_model.stl": "c2f00d31e42165dbeeff96e393d59995a696714e67ed5821fec57cd5e8780ed9"
+  },
+  "reloaded_3mf_objects": 1,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    84.0,
+    70.0,
+    15.359999656677246
+  ],
+  "triangles": 127622,
+  "physical_tested": false
+}

@@ -241,3 +241,6 @@ catalog_preview_data.json
 *.[mM][pP]4
 *.[mM][oO][vV]
 *.[wW][aA][vV]
+
+# Headless catalog renderer on Linux
+industry_catalog/rasterizer.so

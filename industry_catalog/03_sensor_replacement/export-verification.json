@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "model.py": "cdfa1acafdf12577d340973e47bc964bb519e6d313a302f393d228e68faa8fcf",
+    "output_model.3mf": "914c17205a78c2581bfb9e2380ba64e09e37dd92df7887b03a49aa4cb4e49fab",
+    "output_model.step": "a9667b3b2136ddac7fc48dfd63f1081a13e6e3e7d8f02678ba1f93eb514f8280",
+    "output_model.stl": "95271d55719311d929f8b6c21461924082b2d0a52d867abe0aae5a7ea597f881",
+    "sensor_bracket.stl": "5eec0c2bbb54554b356a9354b1a7565cb9a0b5f3b169f554ea95454b0586e7f5"
+  },
+  "reloaded_3mf_objects": 1,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    80.0,
+    46.0,
+    46.0
+  ],
+  "triangles": 2248,
+  "physical_tested": false
+}

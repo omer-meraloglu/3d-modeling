@@ -1,0 +1,227 @@
+{
+  "brand": "polukal",
+  "title": "Industry applications — architecture and landscape editions",
+  "units": "millimeter",
+  "model_count": 6,
+  "geometry": "Newly authored parametric CadQuery solids. No downloaded meshes.",
+  "status": "Digitally checked, ready for a first print and application-specific evaluation; physical trials pending.",
+  "preview_colors": "Optional painted finish. Single-material print files; preview-only hardware is labeled.",
+  "sources": [
+    {
+      "url": "https://www.eufymake.com/blogs/business-ideas/best-3d-print-sell-profitable-items",
+      "purpose": "User-supplied category inspiration; not evidence of demand for these designs."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/3d-printing-medical-devices/medical-applications-3d-printing",
+      "purpose": "Context for distinguishing a non-clinical demonstration from patient-specific devices."
+    }
+  ],
+  "products": [
+    {
+      "id": "04_courtyard_architecture",
+      "title": "Courtyard office campus",
+      "category": "Architectural models and landscapes",
+      "use": "Physical presentation of building massing, courtyard layout and landscape relationships.",
+      "client": "Architecture studios, property presentations, design-review workshops.",
+      "features": [
+        "Three stepped wings with recessed windows",
+        "Roof gardens and parapets",
+        "Courtyard, benches, paths, eight trees and three massing cars"
+      ],
+      "customize": [
+        "SCALE_DENOMINATOR",
+        "SITE_LENGTH",
+        "SITE_WIDTH",
+        "REAR_FLOORS",
+        "LEFT_FLOORS",
+        "RIGHT_FLOORS",
+        "FLOOR_HEIGHT_REAL",
+        "TREE_RADIUS",
+        "TREE_HEIGHT"
+      ],
+      "print": "Single connected model. Flat base on bed. Start with PLA, 0.4 mm nozzle, 0.12–0.16 mm layers, 3 walls and 10–15% infill.",
+      "limits": "Fictional 1:200 concept. Small details are enlarged for printing. No structural/construction information.",
+      "files": {
+        "source": "04_courtyard_architecture/model.py",
+        "stl": "04_courtyard_architecture/output_model.stl",
+        "3mf": "04_courtyard_architecture/output_model.3mf",
+        "step": "04_courtyard_architecture/output_model.step",
+        "preview": "04_courtyard_architecture/preview.png",
+        "validation": "04_courtyard_architecture/validation.json"
+      },
+      "physical_tested": false
+    },
+    {
+      "id": "05_terraced_landscape",
+      "title": "Terraced garden and pavilion",
+      "category": "Architectural models and landscapes",
+      "use": "Physical landscape presentation showing terrain levels, circulation, planting and water features.",
+      "client": "Landscape architects, urban-design teams, real-estate presentations.",
+      "features": [
+        "Four contour terraces and eight entrance steps",
+        "Raised pavilion and gabled cottage",
+        "Recessed pond, connected paths, twelve trees, benches and bollards"
+      ],
+      "customize": [
+        "SITE_LENGTH",
+        "SITE_WIDTH",
+        "BASE_THICKNESS",
+        "TERRACE_RISE",
+        "PAVILION_HEIGHT",
+        "POND_RX",
+        "POND_RY",
+        "POND_DEPTH"
+      ],
+      "print": "Single connected model. Flat base on bed. Start with PLA, 0.4 mm nozzle, 0.12–0.16 mm layers, 3 walls and 10–15% infill.",
+      "limits": "Fictional concept at nominal 1:200 scale; modeled dimensions are display millimeters. Pond is a recess, not a water vessel.",
+      "files": {
+        "source": "05_terraced_landscape/model.py",
+        "stl": "05_terraced_landscape/output_model.stl",
+        "3mf": "05_terraced_landscape/output_model.3mf",
+        "step": "05_terraced_landscape/output_model.step",
+        "preview": "05_terraced_landscape/preview.png",
+        "validation": "05_terraced_landscape/validation.json"
+      },
+      "physical_tested": false
+    },
+    {
+      "id": "01_drill_jig",
+      "title": "Datum drill jig",
+      "category": "Jigs, fixtures and tooling",
+      "use": "Repeated two-hole positioning on nominal 25 mm stock using a datum stop and separate steel bushings.",
+      "client": "Assembly workshops and short-run fabrication.",
+      "features": [
+        "32 mm nominal hole pitch",
+        "25.5 mm stock channel",
+        "Replaceable 10 mm OD steel-bushing seats",
+        "Four M5 clamping slots"
+      ],
+      "customize": [
+        "PLATE_LENGTH",
+        "PLATE_WIDTH",
+        "FIT",
+        "HOLE_PITCH",
+        "BUSHING_OD"
+      ],
+      "print": "Print in the supplied flipped pose, fences upward. PETG trial: 0.2 mm layers, 5 walls, 40–60% infill; tune to the actual clamping duty.",
+      "hardware": "Two flanged steel drill bushings, nominal OD 10 / ID 6 / flange OD 16 mm; M5 bolts and washers or suitable clamps. Confirm sleeve length and retention.",
+      "limits": "Use steel bushings, retain them and clamp the work. No drill-wear or load-life validation. Preview bushings are reference-only and excluded from printable files.",
+      "files": {
+        "source": "01_drill_jig/model.py",
+        "stl": "01_drill_jig/output_model.stl",
+        "3mf": "01_drill_jig/output_model.3mf",
+        "step": "01_drill_jig/output_model.step",
+        "preview": "01_drill_jig/preview.png",
+        "validation": "01_drill_jig/validation.json"
+      },
+      "physical_tested": false
+    },
+    {
+      "id": "02_controller_prototype",
+      "title": "ControlPod prototype housing",
+      "category": "Functional prototypes",
+      "use": "Mechanical fit and ergonomic mockup for a handheld controller or benchtop interface.",
+      "client": "Product-design teams and electronics developers.",
+      "features": [
+        "Body and removable screw-fastened lid",
+        "42 × 18 mm display aperture and two button apertures",
+        "54 × 30 mm PCB post pattern",
+        "0.25 mm lid clearance per side"
+      ],
+      "customize": [
+        "LENGTH",
+        "WIDTH",
+        "HEIGHT",
+        "WALL",
+        "FIT",
+        "DISPLAY_LENGTH",
+        "DISPLAY_WIDTH",
+        "BUTTON_DIAMETER",
+        "PCB_SPAN_X",
+        "PCB_SPAN_Y"
+      ],
+      "print": "Two parts on the supplied plate: body upright, lid exterior face down. PLA or PETG trial, 0.16–0.2 mm layers, 4 walls, 20–30% infill.",
+      "hardware": "Four M3 bolts and nuts, PCB screws matched to the board. Select bolt lengths after confirming the stack. Retain nuts during lid placement.",
+      "limits": "Electronics not supplied. Display/button positions are illustrative. No ingress rating or electrical certification.",
+      "files": {
+        "source": "02_controller_prototype/model.py",
+        "stl": "02_controller_prototype/output_model.stl",
+        "3mf": "02_controller_prototype/output_model.3mf",
+        "step": "02_controller_prototype/output_model.step",
+        "preview": "02_controller_prototype/preview.png",
+        "validation": "02_controller_prototype/validation.json"
+      },
+      "physical_tested": false
+    },
+    {
+      "id": "03_sensor_replacement",
+      "title": "Gusseted sensor bracket",
+      "category": "End-use replacement parts",
+      "use": "Example replacement mounting bracket for a threaded M18 cylindrical sensor.",
+      "client": "Maintenance shops and machine builders.",
+      "features": [
+        "6 mm base and 8 mm upright",
+        "Two triangular strengthening ribs",
+        "18.5 mm circular seat with self-supporting roof",
+        "Two 16 mm M5 slots"
+      ],
+      "customize": [
+        "LENGTH",
+        "WIDTH",
+        "HEIGHT",
+        "BASE_THICKNESS",
+        "WALL_THICKNESS",
+        "SENSOR_DIAMETER",
+        "SENSOR_CENTER_Z",
+        "FIT",
+        "MOUNT_X",
+        "MOUNT_Y"
+      ],
+      "print": "Base down. PETG trial: 0.2 mm layers, 5 walls, 40–60% infill. Material and process require confirmation for the machine environment.",
+      "hardware": "Sensor mounting nuts and washers; two M5 mounting bolts and washers.",
+      "limits": "Example dimensions only. Confirm machine fit, temperature, vibration, tightening torque and loads; no safety-critical rating.",
+      "files": {
+        "source": "03_sensor_replacement/model.py",
+        "stl": "03_sensor_replacement/output_model.stl",
+        "3mf": "03_sensor_replacement/output_model.3mf",
+        "step": "03_sensor_replacement/output_model.step",
+        "preview": "03_sensor_replacement/preview.png",
+        "validation": "03_sensor_replacement/validation.json"
+      },
+      "physical_tested": false
+    },
+    {
+      "id": "06_dental_demo",
+      "title": "Dental training arch",
+      "category": "Medical and dental: non-clinical demonstration",
+      "use": "Non-clinical display prop illustrating an arch and crown forms.",
+      "client": "Education/demo settings, subject to review of the illustrative anatomy.",
+      "features": [
+        "Fourteen generic crowns with differentiated forms",
+        "Rounded cusp details",
+        "Raised arch on stable base",
+        "Permanent recessed DEMO label"
+      ],
+      "customize": [
+        "BASE_LENGTH",
+        "BASE_WIDTH",
+        "GUM_HEIGHT",
+        "ARCH_RX",
+        "ARCH_RY",
+        "CROWN_HEIGHT",
+        "END_ANGLE_DEG"
+      ],
+      "print": "Base down. PLA display prop, 0.12–0.16 mm layers; 3 walls and 15–20% infill. Ordinary filament is not specified for clinical contact.",
+      "limits": "Not patient-specific or anatomically validated. Not for intraoral use, aligner manufacture, surgical guidance, diagnosis, treatment or prosthetic fitting.",
+      "files": {
+        "source": "06_dental_demo/model.py",
+        "stl": "06_dental_demo/output_model.stl",
+        "3mf": "06_dental_demo/output_model.3mf",
+        "step": "06_dental_demo/output_model.step",
+        "preview": "06_dental_demo/preview.png",
+        "validation": "06_dental_demo/validation.json"
+      },
+      "physical_tested": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "courtyard_site.stl": "d7e77de47dbe859084fd97d0ab8a5a3028d560ee525ef0926a5ae0b3babe80cd",
+    "model.py": "5d76539e6a77267e2bcbe450c2c9259db510526fd6bdb6e4db7586b1745be961",
+    "output_model.3mf": "1cf28ab7ce4817af27e395d8c646ef6a83feb26c589d021de835a74050fe0c33",
+    "output_model.step": "0de61bcebe46b276713be1b671ee4eea1becc118b2b16e02db4d6254ba697289",
+    "output_model.stl": "61bf8e660b0080c460a3399193ba5fdfc0dfa8edb10993ba2a27c997e895f8ea"
+  },
+  "reloaded_3mf_objects": 1,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    180.0,
+    140.0,
+    54.15999984741211
+  ],
+  "triangles": 46804,
+  "physical_tested": false
+}

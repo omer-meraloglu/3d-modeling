@@ -1,0 +1,27 @@
+{
+  "title": "Venom \u2014 symbiote bust",
+  "units": "millimeter",
+  "height_mm": 180.0,
+  "sampling_pitch_mm": 0.7,
+  "draft": true,
+  "triangles": 366050,
+  "vertices": 183011,
+  "dimensions_mm": [
+    158.83975219726562,
+    95.25166320800781,
+    180.0
+  ],
+  "volume_cm3": 607.2622749572854,
+  "watertight": true,
+  "consistent_winding": true,
+  "connected_solids": 1,
+  "subvoxel_shells_cleaned": 16,
+  "subvoxel_volume_mm3": 0.02154393595724477,
+  "manifold_boolean_valid": true,
+  "fang_count": 50,
+  "supports_required": true,
+  "overhang_area_beyond_45_deg_mm2": 5433.431960021937,
+  "physical_print_tested": false,
+  "preview_colors": "Optional paint finish on the actual sculpture geometry.",
+  "source_sha256": "047ecbf04107aca02e85da27fe2dee4e620d6d1d1502bfbf181aa62d9586d970"
+}

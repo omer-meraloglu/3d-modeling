@@ -1,0 +1,51 @@
+{
+  "id": "05_terraced_landscape",
+  "title": "Terraced garden and pavilion",
+  "category": "Architectural models and landscapes",
+  "units": "millimeter",
+  "parts": 1,
+  "part_reports": {
+    "terraced_garden": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 46432,
+      "volume_cm3": 150.97447479957142,
+      "dimensions_mm": [
+        179.9999999,
+        139.9999999,
+        32.380001068115234
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    }
+  },
+  "print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "connected_parts": 1,
+    "triangles": 46432,
+    "volume_cm3": 150.97447493759574,
+    "dimensions_mm": [
+      180.0,
+      140.0,
+      32.380001068115234
+    ],
+    "unsupported_area_beyond_45_deg_mm2": 0.0
+  },
+  "cad_self_intersection_checked": true,
+  "assembly_collision_checked": true,
+  "step_roundtrip_valid": true,
+  "physical_tested": false,
+  "support_free_in_exported_orientation": true,
+  "details": {
+    "architectural_scale": "1:200",
+    "site_mm": [
+      180.0,
+      140.0
+    ],
+    "terrain_height_mm": 12.0,
+    "features": "Four landscape terraces, raised pavilion, gabled cottage, recessed pond, shoreline curb, linked paths, eight steps, twelve trees, benches and bollards.",
+    "representation": "Fictional landscape concept with deliberately enlarged print details. Pond is a modeled recess, not a functional water container. Preview colors show an optional painted finish.",
+    "print": "Single connected terrain/site model; flat base on bed, no slicer supports in the default pose."
+  }
+}

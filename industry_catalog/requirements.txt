@@ -1,0 +1,5 @@
+cadquery==2.6.1
+numpy>=2.2,<2.5
+trimesh>=4.6
+Pillow>=11
+matplotlib>=3.10

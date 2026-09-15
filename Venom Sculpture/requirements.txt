@@ -1,0 +1,10 @@
+cadquery==2.6.1
+numpy>=2.2,<2.5
+scipy>=1.15
+scikit-image==0.25.2
+manifold3d==3.5.3
+trimesh>=4.6
+shapely>=2.1
+triangle
+Pillow>=11
+matplotlib>=3.10

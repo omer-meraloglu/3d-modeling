@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "drill_jig.stl": "ef6cc80af25f271c855146a694de8a9fc5861554602ffcb1757092152aecc0c8",
+    "model.py": "44d619fa1d2ae6888e67f002c45150b4e238a3777f55f2baa51dd95fca99ab94",
+    "output_model.3mf": "fa3db93147fba6be35b2bbc40fe235af3bd1f07ced6afcbed117fbb125c203c1",
+    "output_model.step": "fe6f3b1d03b9e0e9f5cfbeb2b4bb65a8484117f1cbf085a4c30538c8c0bdf688",
+    "output_model.stl": "2d20a82b87bdaf8a647a0cf9ad641fba48abeb2d636b282f19cfeca7fd5121c2"
+  },
+  "reloaded_3mf_objects": 1,
+  "units": "millimeter",
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "no_degenerate_or_duplicate_facets": true,
+  "stl_3mf_agree": true,
+  "fits_220_mm_bed": true,
+  "unsupported_area_beyond_45_deg_mm2": 0.0,
+  "dimensions_mm": [
+    100.0,
+    58.0,
+    16.0
+  ],
+  "triangles": 4676,
+  "physical_tested": false
+}

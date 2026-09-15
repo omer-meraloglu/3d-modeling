@@ -1,0 +1,60 @@
+{
+  "id": "01_drill_jig",
+  "title": "Datum drill jig",
+  "category": "Jigs, fixtures and tooling",
+  "units": "millimeter",
+  "parts": 1,
+  "part_reports": {
+    "drill_jig": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_parts": 1,
+      "triangles": 4676,
+      "volume_cm3": 56.88822191089413,
+      "dimensions_mm": [
+        100.0,
+        58.0,
+        16.0
+      ],
+      "unsupported_area_beyond_45_deg_mm2": 0.0
+    }
+  },
+  "print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "connected_parts": 1,
+    "triangles": 4676,
+    "volume_cm3": 56.888221970232905,
+    "dimensions_mm": [
+      100.0,
+      58.0,
+      16.0
+    ],
+    "unsupported_area_beyond_45_deg_mm2": 0.0
+  },
+  "cad_self_intersection_checked": true,
+  "assembly_collision_checked": true,
+  "step_roundtrip_valid": true,
+  "physical_tested": false,
+  "support_free_in_exported_orientation": true,
+  "details": {
+    "workpiece_channel_width_mm": 25.5,
+    "workpiece_side_clearance_mm": 0.25,
+    "datum_x_mm": -38.0,
+    "hole_centers_xy_mm": [
+      [
+        -18.0,
+        0
+      ],
+      [
+        14.0,
+        0
+      ]
+    ],
+    "steel_bushing_OD_mm": 10.0,
+    "drill_diameter_mm": 6.0,
+    "bushing_bore_diameter_mm": 10.2,
+    "hardware": "Two steel drill bushings (10 mm OD / 6 mm ID nominal), flange retention/bonding appropriate to the selected bushing; M5 bolts/washers or external clamps.",
+    "use": "Clamp the template and stock before drilling. Bore fit and hole-position accuracy require a first-article check. Printed plastic is not the drill bearing surface."
+  }
+}

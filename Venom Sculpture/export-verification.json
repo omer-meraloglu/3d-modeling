@@ -1,0 +1,39 @@
+{
+  "stl": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "connected_shells": 1,
+    "every_edge_has_two_faces": true,
+    "triangles": 881442,
+    "dimensions_mm": [
+      158.77899932861328,
+      95.27284240722656,
+      180.0
+    ],
+    "volume_cm3": 607.7682208504909
+  },
+  "3mf": {
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "connected_shells": 1,
+    "every_edge_has_two_faces": true,
+    "triangles": 881442,
+    "dimensions_mm": [
+      158.77899932999998,
+      95.27284241,
+      180.0
+    ],
+    "volume_cm3": 607.7682208418956
+  },
+  "stl_3mf_agree": true,
+  "manifold_reload_valid": true,
+  "supports_required": true,
+  "physical_tested": false,
+  "files_sha256": {
+    "model.py": "a1f3fec58e91f9f458a92399ec9ef8464356507c5fe77f744863c422cab348d8",
+    "output_model.stl": "b60e03bf7ad1952eace53bf2b8f4936c504623917466c089ca71d6959bd6fdd2",
+    "output_model.3mf": "4d3b29ace5f8d49ad2154a583453b529d651d77b1989931717822fb67cec0e3a"
+  }
+}

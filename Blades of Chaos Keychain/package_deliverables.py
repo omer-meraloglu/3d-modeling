@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-"""Package the three current blade revisions; uses only the Python standard library.
+"""Package blade revisions; uses only the Python standard library.
 
 Run after generating and verifying the models. Documentation remains in the
 single project-root README.md; version-specific drawing PDFs travel with kits.
 """
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
 KITS = (
+    ('v6 - Reference Sculpt', 'polukal-blades-reference-sculpt-v6.zip', 'output_model.3mf'),
     ('v5 - One-piece Print', 'polukal-blades-onepiece-fdm.zip', 'output_model.3mf'),
     ('v3 - Two-sided Assembly', 'polukal-blades-bonded-print-kit.zip', 'output_model.3mf'),
     ('v4 - Metal Production', 'polukal-blades-metal-supplier-kit.zip', 'metal_casting_master.stl'),
@@ -20,7 +22,13 @@ SUFFIXES = {'.py', '.txt', '.stl', '.3mf', '.step', '.dxf', '.pdf',
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version', choices=['v3', 'v4', 'v5', 'v6'],
+                        help='Package only this revision; default packages all.')
+    args = parser.parse_args()
     for folder, archive_name, entry_point in KITS:
+        if args.version and not folder.startswith(args.version + ' '):
+            continue
         source = ROOT / folder
         files = sorted(p for p in source.iterdir()
                        if p.is_file() and p.suffix.lower() in SUFFIXES
@@ -42,7 +50,7 @@ def main():
             'project_documentation': '3d-modeling/README.md',
             'files': entries,
         }
-        if folder.startswith('v5'):
+        if folder.startswith(('v5', 'v6')):
             manifest['slicer_supports_required'] = True
             manifest['supports_and_gcode_included'] = False
         manifest_path = source / 'delivery-manifest.json'
