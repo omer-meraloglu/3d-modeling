@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "length_mm": 110.0,
+  "mesh_pitch_mm": 0.12,
+  "front_half": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 4.360620293527879,
+    "dimensions_mm": [
+      110.0,
+      38.276973724365234,
+      5.923292636871338
+    ],
+    "triangles": 259210,
+    "support_check_passed": true,
+    "minimum_sampled_socket_skin_mm": 1.0610072414825884,
+    "socket_diameter_mm": 2.9,
+    "socket_depth_mm": 1.566,
+    "socket_roof_angle_deg": 47.202598161765806,
+    "key_clearance_per_side_mm": 0.25,
+    "key_centers_xy_mm": [
+      [
+        17.59221133813827,
+        21.47038781194604
+      ],
+      [
+        57.17468684894938,
+        18.721604790361937
+      ],
+      [
+        94.55813594249321,
+        17.072334977411472
+      ]
+    ],
+    "cad_envelope_valid": true,
+    "physical_print_tested": false
+  },
+  "back_half": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 4.3606202795459925,
+    "dimensions_mm": [
+      110.00000000000001,
+      38.276973724365234,
+      5.923292636871338
+    ],
+    "triangles": 259210,
+    "support_check_passed": true,
+    "mirror": "X; flip around Y to mate with A."
+  },
+  "alignment_key": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 0.0033549189036478706,
+    "dimensions_mm": [
+      2.4000000953674316,
+      2.4000000953674316,
+      1.399999976158142
+    ],
+    "triangles": 576,
+    "support_check_passed": true
+  },
+  "one_blade_print_plate": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 7,
+    "volume_cm3": 8.738015235240267,
+    "dimensions_mm": [
+      110.00000000000001,
+      89.75395202636719,
+      5.923292636871338
+    ],
+    "triangles": 521300,
+    "support_check_passed": true
+  },
+  "assembly_dimensions_mm": [
+    110.00000000000001,
+    38.2769749235633,
+    11.926585563042652
+  ],
+  "bondline_gap_preview_mm": 0.08,
+  "halves_per_blade": 2,
+  "keys_per_blade": 3,
+  "spare_keys_per_plate": 2,
+  "two_blades_plate_parts": 12,
+  "physical_print_tested": false
+}

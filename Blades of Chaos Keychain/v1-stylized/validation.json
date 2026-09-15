@@ -1,0 +1,56 @@
+[
+  {
+    "style": "single",
+    "size_mm": [
+      34.226,
+      78.003,
+      5.049
+    ],
+    "volume_cm3": 5.041,
+    "keyring_hole_mm": 4.6,
+    "triangles": 12306,
+    "single_solid": true,
+    "watertight": true,
+    "body_thickness_mm": 3.6,
+    "guard_relief_mm": 1.2,
+    "grip_relief_mm": 0.6,
+    "groove_depth_mm": 0.48,
+    "crossed_layer_rise_mm": 0,
+    "checks": [
+      "CAD validity",
+      "CAD self-intersection",
+      "STL edge manifold",
+      "STL single shell",
+      "positive signed volume",
+      "facet normals",
+      "45-degree underside check"
+    ]
+  },
+  {
+    "style": "crossed",
+    "size_mm": [
+      72.1,
+      78.003,
+      5.849
+    ],
+    "volume_cm3": 12.631,
+    "keyring_hole_mm": 4.6,
+    "triangles": 23052,
+    "single_solid": true,
+    "watertight": true,
+    "body_thickness_mm": 3.6,
+    "guard_relief_mm": 1.2,
+    "grip_relief_mm": 0.6,
+    "groove_depth_mm": 0.48,
+    "crossed_layer_rise_mm": 0.8,
+    "checks": [
+      "CAD validity",
+      "CAD self-intersection",
+      "STL edge manifold",
+      "STL single shell",
+      "positive signed volume",
+      "facet normals",
+      "45-degree underside check"
+    ]
+  }
+]

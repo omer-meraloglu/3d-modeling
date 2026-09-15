@@ -1,0 +1,34 @@
+[
+  {
+    "file": "single_blade",
+    "stl_3mf_obj_reload": "pass",
+    "closed_connected_volume": true,
+    "triangles": 190380,
+    "euler_characteristic": 0,
+    "volume_cm3": 4.894811567389252,
+    "sha256": "3e69cd65ff7cbe07635360c228b71f533e419eef31c94b2de87981c6c5bb43d6"
+  },
+  {
+    "file": "crossed_blades",
+    "stl_3mf_obj_reload": "pass",
+    "closed_connected_volume": true,
+    "triangles": 347256,
+    "euler_characteristic": -2,
+    "volume_cm3": 9.857253675714356,
+    "sha256": "9fa15a579e167efcd1db55474aa1710c8153975f0749ff033284a79f90d56fdc"
+  },
+  {
+    "custom_length_mm": 80.0,
+    "custom_eyelet_mm": 5.0,
+    "watertight_one_shell": true,
+    "triangles": 57636,
+    "mesh_pitch_mm": 0.28
+  },
+  {
+    "custom_length_mm": 110.0,
+    "custom_eyelet_mm": 4.2,
+    "watertight_one_shell": true,
+    "triangles": 98152,
+    "mesh_pitch_mm": 0.28
+  }
+]

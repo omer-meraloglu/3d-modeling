@@ -1,0 +1,110 @@
+{
+  "model.py": {
+    "bytes": 23691,
+    "sha256": "ce6433388175ba2cf1190bbdc87e06bb8ae5813253c1298469e923d2ce909aae"
+  },
+  "requirements.txt": {
+    "bytes": 104,
+    "sha256": "997b956defef7fc1775b07c28f78cd4f03604c1be5de6e06beff27987d4ad1e1"
+  },
+  "render_preview.py": {
+    "bytes": 6960,
+    "sha256": "65e7edfe76822ea77ffe5bbc787ac8c42dd34117b52c1103fbd0b60d106ed694"
+  },
+  "rasterizer.cpp": {
+    "bytes": 4375,
+    "sha256": "5732eb5022b4f55c016127e00091d85b6532f46d8857d1c2cedb0083a6ce370f"
+  },
+  "verify_exports.py": {
+    "bytes": 3114,
+    "sha256": "119b67c84af7ff94a0573b4220c49c89ea9137a544aee8d9dc2e4dc23a8e3f09"
+  },
+  "preview.png": {
+    "bytes": 774616,
+    "sha256": "4bcfbe1dde13ca8c4f4ef33c0b821d1653155c2215db73ff9c727bdda0e080c1"
+  },
+  "validation.json": {
+    "bytes": 1737,
+    "sha256": "12968204974cec6cfa711120bf8a8a67a55c818b880352204354d1f1427a6330"
+  },
+  "export-verification.json": {
+    "bytes": 874,
+    "sha256": "de7d67d9d6ea6f82dcf5acc4effd4d6f0ae9e58a3837e0a3594b4f909032344b"
+  },
+  "single_blade.stl": {
+    "bytes": 9519084,
+    "sha256": "3e69cd65ff7cbe07635360c228b71f533e419eef31c94b2de87981c6c5bb43d6"
+  },
+  "single_blade.3mf": {
+    "bytes": 1826717,
+    "sha256": "53de1fb59407ff635737a05c914498c0b5ff6804731a69c3d21bbaa9b43ee585"
+  },
+  "single_blade.obj": {
+    "bytes": 6673355,
+    "sha256": "daa7ec3ad0859ab2374e5b4e0df0cd6a791678358ad25ce89dddcae9f3bb2225"
+  },
+  "single_blade.mesh.npz": {
+    "bytes": 1461191,
+    "sha256": "fc0514c39faebefe702149409d665b2bc71ea897ea78506d2d1305e21a85d096"
+  },
+  "single_blade.validation.json": {
+    "bytes": 801,
+    "sha256": "1bc9554ba1a63b239afe7d730c5302fcafd79b867ff4490c86b8eec76c03c5a7"
+  },
+  "single_blade-preview.png": {
+    "bytes": 397413,
+    "sha256": "162a5878879843d5c10438b5237af2388b5c440cd9aaab0d0454467abe8f01b3"
+  },
+  "single_blade-geometry.png": {
+    "bytes": 401737,
+    "sha256": "39b14cfea62e16bf745bd274261664a9993cccbc034581ec74f85c0176249e2f"
+  },
+  "crossed_blades.stl": {
+    "bytes": 17362884,
+    "sha256": "9fa15a579e167efcd1db55474aa1710c8153975f0749ff033284a79f90d56fdc"
+  },
+  "crossed_blades.3mf": {
+    "bytes": 3371649,
+    "sha256": "818ec555cf7c42178776a181aa1df6912d0c2ca41dcc2539bc7def586a71a755"
+  },
+  "crossed_blades.obj": {
+    "bytes": 12690890,
+    "sha256": "9388780d4eb57fb91a4a006f51dd24b33709be0f7daf7c1ee45cfeb9417ad4b8"
+  },
+  "crossed_blades.mesh.npz": {
+    "bytes": 2603715,
+    "sha256": "49c04b017da1ade0f4c6bffa8f9dc36e31ce2109299b21bcf8c4e7f1cde48075"
+  },
+  "crossed_blades.validation.json": {
+    "bytes": 818,
+    "sha256": "d111831112daf46e09194b94367e4523187bc0e35672e8dfa79578ce3cb154af"
+  },
+  "crossed_blades-preview.png": {
+    "bytes": 588422,
+    "sha256": "e4e9c45d0c049dc331828a57065c28c6d2ae00cb1b7502fa24965c63e7b64dbb"
+  },
+  "crossed_blades-geometry.png": {
+    "bytes": 597749,
+    "sha256": "f99beec1e5ce33c2b39160a093ae1e995fbb5aff60933b54d870b6c71e3ed675"
+  },
+  "output_model.stl": {
+    "bytes": 9519084,
+    "sha256": "3e69cd65ff7cbe07635360c228b71f533e419eef31c94b2de87981c6c5bb43d6"
+  },
+  "output_model.3mf": {
+    "bytes": 1826717,
+    "sha256": "53de1fb59407ff635737a05c914498c0b5ff6804731a69c3d21bbaa9b43ee585"
+  },
+  "output_model.obj": {
+    "bytes": 6673355,
+    "sha256": "daa7ec3ad0859ab2374e5b4e0df0cd6a791678358ad25ce89dddcae9f3bb2225"
+  },
+  "output_model.mesh.npz": {
+    "bytes": 1461191,
+    "sha256": "fc0514c39faebefe702149409d665b2bc71ea897ea78506d2d1305e21a85d096"
+  },
+  "output_model.validation.json": {
+    "bytes": 801,
+    "sha256": "1bc9554ba1a63b239afe7d730c5302fcafd79b867ff4490c86b8eec76c03c5a7"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": 5,
+  "nominal_length_mm": 110.0,
+  "one_piece": true,
+  "assembly_required": false,
+  "model": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 8.741180137138606,
+    "dimensions_mm": [
+      110.0,
+      38.27450942993164,
+      11.846635818481445
+    ],
+    "triangles": 495248,
+    "slicer_supports_required": true
+  },
+  "fdm_orientation": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 8.741180171966121,
+    "dimensions_mm": [
+      47.847740173339844,
+      37.81235885620117,
+      101.98206329345703
+    ],
+    "triangles": 495248,
+    "support_check_passed": false,
+    "downward_area_beyond_45_deg_mm2": 419.76040703515457,
+    "supports_required": true
+  },
+  "resin_orientation": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 8.741180139289472,
+    "dimensions_mm": [
+      76.68861389160156,
+      36.5819091796875,
+      83.5996322631836
+    ],
+    "triangles": 495248,
+    "support_check_passed": false,
+    "downward_area_beyond_45_deg_mm2": 522.9764657260647,
+    "supports_required": true
+  },
+  "fdm_tilt_deg": 65.0,
+  "fdm_roll_deg": 12.0,
+  "resin_tilt_deg": 45.0,
+  "resin_roll_deg": 20.0,
+  "default_output_orientation": "fdm",
+  "slicer_supports_included": false,
+  "physical_print_tested": false
+}

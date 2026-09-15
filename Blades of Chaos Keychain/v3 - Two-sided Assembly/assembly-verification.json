@@ -1,0 +1,77 @@
+{
+  "blade_A_front": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 4.360620293527879,
+    "dimensions_mm": [
+      110.0,
+      38.276973724365234,
+      5.923292636871338
+    ],
+    "triangles": 259210,
+    "support_check_passed": true
+  },
+  "blade_B_back_mirrored": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 4.3606202795459925,
+    "dimensions_mm": [
+      110.00000000000001,
+      38.276973724365234,
+      5.923292636871338
+    ],
+    "triangles": 259210,
+    "support_check_passed": true
+  },
+  "alignment_key": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 0.0033549189036478706,
+    "dimensions_mm": [
+      2.4000000953674316,
+      2.4000000953674316,
+      1.399999976158142
+    ],
+    "triangles": 576,
+    "support_check_passed": true
+  },
+  "output_model": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 7,
+    "volume_cm3": 8.738015235240267,
+    "dimensions_mm": [
+      110.00000000000001,
+      89.75395202636719,
+      5.923292636871338
+    ],
+    "triangles": 521300,
+    "support_check_passed": true
+  },
+  "assembly_fit": {
+    "mirror_alignment_error_mm": 7.105427357601002e-15,
+    "minimum_interpolated_socket_skin_mm": 1.0609735714026314,
+    "minimum_radial_key_clearance_mm": 0.29000000000000004,
+    "nominal_radial_clearance_mm": 0.25,
+    "keyring_openings_coincident": true,
+    "physical_dry_fit_tested": false
+  },
+  "output_model_3mf": {
+    "objects": 7,
+    "units": "millimeter",
+    "all_objects_valid": true
+  },
+  "two_blades_print_plate_3mf": {
+    "objects": 12,
+    "units": "millimeter",
+    "all_objects_valid": true
+  },
+  "assembled_REFERENCE_ONLY_3mf": {
+    "objects": 5,
+    "units": "millimeter",
+    "all_objects_valid": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "product": "polukal Blades of Chaos miniature keychain",
+  "revision": "v4 - Metal Production",
+  "units": "millimeter",
+  "nominal_length_mm": 110.0,
+  "start_file": "metal_casting_master.stl",
+  "physical_production_tested": false,
+  "project_documentation": "3d-modeling/README.md",
+  "files": {
+    "Metal_Sanayi_Uretim_Paketi_TR.pdf": {
+      "bytes": 671571,
+      "sha256": "381357ccbf8193c9d6ff94a62fd33bc30de31eab2846f60074cddcb7c1d1da89"
+    },
+    "drawing-data.json": {
+      "bytes": 167031,
+      "sha256": "58e13328279b9cfb42f127b9f926a0a16575ac8f93b4122c47483beb3981e737"
+    },
+    "metal-preview.png": {
+      "bytes": 399576,
+      "sha256": "15e1473eb44d4378a3760caf6bf1f13c556306ca49c197579a286bac376143c0"
+    },
+    "metal-top-transparent.png": {
+      "bytes": 452957,
+      "sha256": "d96a4a34b74236807c376f6afed776ac23b6e9b98831f11304cc2749233de8da"
+    },
+    "metal-validation.json": {
+      "bytes": 1377,
+      "sha256": "45fe9736f072e5120e7dce42af1bfcdb34e1c111401882a725a715450a70e47b"
+    },
+    "metal_CAD_interchange.step": {
+      "bytes": 163135325,
+      "sha256": "606fd1637d6a5f087c2f77451f8a6d6e104cea288bc555d0b063f6d05a47f94b"
+    },
+    "metal_casting_master.3mf": {
+      "bytes": 5662309,
+      "sha256": "0d868f62040a22534a5bd65977912600d1adcbf771b995ba49cd02d21dcc5751"
+    },
+    "metal_casting_master.mesh.npz": {
+      "bytes": 4653400,
+      "sha256": "daba9b5907c1683bc799c2436f5229310cf73c918731ad39893e1e0561a5d1f5"
+    },
+    "metal_casting_master.stl": {
+      "bytes": 24762484,
+      "sha256": "eb288c58e830a24eb86116cd015e1ef11b79b47c9e1be5511edf56fd5cc069e7"
+    },
+    "metal_model.py": {
+      "bytes": 27751,
+      "sha256": "df368ea94d737dcaa9c4f8dc22fb6ec2c6965d191f910daaf6338cbe02cbeec1"
+    },
+    "metal_outline_REFERENCE_ONLY.dxf": {
+      "bytes": 198871,
+      "sha256": "d942af67a25129733c4ffab151aa21f79ff1c1eee063ffa3990146ab0a7ff39d"
+    },
+    "output_model.stl": {
+      "bytes": 24762484,
+      "sha256": "eb288c58e830a24eb86116cd015e1ef11b79b47c9e1be5511edf56fd5cc069e7"
+    },
+    "requirements.txt": {
+      "bytes": 155,
+      "sha256": "48d6653b6639838d13e30c2f5a512b145d889d6309edbf5738d71e1b5d344389"
+    }
+  }
+}

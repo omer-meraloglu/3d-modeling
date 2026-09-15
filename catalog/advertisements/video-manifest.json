@@ -1,0 +1,62 @@
+[
+  {
+    "product": "Slotted sensor plate",
+    "file": "videos/b2b_sensor_plate.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  },
+  {
+    "product": "PCB inspection cradle",
+    "file": "videos/b2b_pcb_cradle.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  },
+  {
+    "product": "Custom assembly nest",
+    "file": "videos/b2b_assembly_nest.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  },
+  {
+    "product": "Cable landing rail",
+    "file": "videos/b2c_cable_rail.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  },
+  {
+    "product": "Desk valet with divider",
+    "file": "videos/b2c_divider_tray.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  },
+  {
+    "product": "CablePass phone stand",
+    "file": "videos/b2c_phone_stand.mp4",
+    "seconds": 12,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24
+  }
+]

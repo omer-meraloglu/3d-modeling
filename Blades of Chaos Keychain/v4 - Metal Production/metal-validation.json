@@ -1,0 +1,48 @@
+{
+  "version": 4,
+  "process_target": "investment casting from printed wax/castable resin master",
+  "nominal_scale": 1.0,
+  "rounding_xy_mm": 0.3,
+  "mesh": {
+    "watertight": true,
+    "consistent_winding": true,
+    "closed_shells": 1,
+    "volume_cm3": 8.741180137138606,
+    "dimensions_mm": [
+      110.0,
+      38.27450942993164,
+      11.846635818481445
+    ],
+    "triangles": 495248,
+    "pattern_requires_support_planning": true
+  },
+  "minimum_edge_thickness_mm": 1.8,
+  "keyring_hole_mm": 4.6,
+  "no_alignment_pockets": true,
+  "no_split_seam": true,
+  "material_alloy": "Supplier to confirm casting brass/bronze or agreed alternative",
+  "estimated_mass_brass_8_5_g_cm3": 74.30003116567815,
+  "estimated_mass_aluminium_2_7_g_cm3": 23.601186370274238,
+  "foundry_trial_completed": false,
+  "step": {
+    "type": "faceted B-rep solid; simplified interchange reference",
+    "faces": 65000,
+    "sampled_bidirectional_max_deviation_mm": 0.04636820281899224,
+    "sample_count": 30000,
+    "cad_valid": true,
+    "solids": 1,
+    "volume_cm3": 8.740029314357951,
+    "authoritative_file": "metal_casting_master.stl"
+  },
+  "roundtrip": {
+    "stl_watertight_one_volume": true,
+    "step_valid": true,
+    "step_solids": 1,
+    "step_dimensions_mm": [
+      110.0,
+      38.27450918826253,
+      11.88931611495101
+    ],
+    "step_volume_cm3": 8.740029314357926
+  }
+}

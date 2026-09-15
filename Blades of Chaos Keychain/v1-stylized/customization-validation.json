@@ -1,0 +1,33 @@
+{
+  "style": "crossed",
+  "size_mm": [
+    78.807,
+    85.003,
+    6.249
+  ],
+  "volume_cm3": 16.507,
+  "keyring_hole_mm": 5.0,
+  "triangles": 23076,
+  "single_solid": true,
+  "watertight": true,
+  "body_thickness_mm": 4.0,
+  "guard_relief_mm": 1.2,
+  "grip_relief_mm": 0.6,
+  "groove_depth_mm": 0.48,
+  "crossed_layer_rise_mm": 0.8,
+  "checks": [
+    "CAD validity",
+    "CAD self-intersection",
+    "STL edge manifold",
+    "STL single shell",
+    "positive signed volume",
+    "facet normals",
+    "45-degree underside check"
+  ],
+  "custom_parameters": {
+    "LONG_SIDE_MM": 85,
+    "BODY_THICKNESS": 4.0,
+    "KEYRING_HOLE_D": 5.0,
+    "GROOVE_WIDTH": 1.0
+  }
+}

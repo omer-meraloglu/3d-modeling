@@ -1,0 +1,68 @@
+[
+  {
+    "pid": "b2b_sensor_plate",
+    "title": "Slotted sensor plate",
+    "category": "B2B",
+    "use": "Adjustable mounting for cylindrical sensors.",
+    "buyer": "Machine builders and automation integrators",
+    "customize": "Sensor diameter \u00b7 slot travel \u00b7 hole spacing",
+    "hardware": "Two M5 bolts and washers; sensor mounting nuts",
+    "print_note": "PETG or ASA \u00b7 flat on bed \u00b7 no supports",
+    "notes": "Uses the sensor manufacturer's mounting nuts. Printed slot diameter includes\n0.25 mm radial clearance. Qualify clamp torque and environmental suitability."
+  },
+  {
+    "pid": "b2b_pcb_cradle",
+    "title": "PCB inspection cradle",
+    "category": "B2B",
+    "use": "Holds a board upright for inspection and light bench work.",
+    "buyer": "Electronics assembly and repair benches",
+    "customize": "PCB thickness \u00b7 edge engagement \u00b7 base width",
+    "hardware": "None; optional adhesive feet",
+    "print_note": "PETG \u00b7 two independent supports \u00b7 no supports",
+    "notes": "Prints two identical movable cradles. The board rests on its bottom edge.\nKeep components clear of the slotted edge. This is a passive holder, not a clamp."
+  },
+  {
+    "pid": "b2b_assembly_nest",
+    "title": "Custom assembly nest",
+    "category": "B2B",
+    "use": "Repeatable positioning for assembly, inspection, and labeling.",
+    "buyer": "Small-batch manufacturers and quality teams",
+    "customize": "Part envelope \u00b7 corner radius \u00b7 mounting pattern",
+    "hardware": "Four M4 bolts and washers, if mounted",
+    "print_note": "PETG \u00b7 open pocket upwards \u00b7 no supports",
+    "notes": "Locates a rounded rectangular workpiece with 0.25 mm side clearance.\nFinger scallops and floor access holes assist removal. Intended for light assembly\nand inspection; it is not a rated machining workholding fixture."
+  },
+  {
+    "pid": "b2c_cable_rail",
+    "title": "Cable landing rail",
+    "category": "B2C",
+    "use": "Keeps charging leads at the desk edge with open-access cable slots.",
+    "buyer": "Home offices, gaming desks, and shared workspaces",
+    "customize": "Cable diameters \u00b7 channel count \u00b7 spacing",
+    "hardware": "Adhesive tape or two M3 mounting screws",
+    "print_note": "PLA or PETG \u00b7 flat on bed \u00b7 no supports",
+    "notes": "Mount the rear flange on the desk with the slotted front projecting over\nthe edge. Cable slots remain open for lateral removal; they are not snap clamps.\nConnector bodies must be larger than the corresponding cable slot."
+  },
+  {
+    "pid": "b2c_divider_tray",
+    "title": "Desk valet with divider",
+    "category": "B2C",
+    "use": "Separates daily carry, pens, and small tech accessories.",
+    "buyer": "Desk setups, gift buyers, and branded office kits",
+    "customize": "Tray size \u00b7 divider position \u00b7 compartment sizes",
+    "hardware": "None; divider drops into open grooves",
+    "print_note": "PLA or PETG \u00b7 tray upright, divider flat \u00b7 no supports",
+    "notes": "The removable divider uses 0.25 mm clearance on each slot face and end.\nIt rests on the tray floor; no adhesive, snap flexure, or printed threads."
+  },
+  {
+    "pid": "b2c_phone_stand",
+    "title": "CablePass phone stand",
+    "category": "B2C",
+    "use": "Supports a phone with an open frame and charging-cable passage.",
+    "buyer": "Home desks, bedside setups, and reception counters",
+    "customize": "Viewing angle \u00b7 device width \u00b7 case thickness",
+    "hardware": "None; optional felt contact pads",
+    "print_note": "PLA or PETG \u00b7 print on its side as exported \u00b7 no supports",
+    "notes": "One-piece stand prints on its broad side. The charging passage has 45-degree\nroofs in that orientation. SLOT_CLEARANCE is added to the nominal case thickness.\nTest phone stability, charging-plug access, and contact padding before use."
+  }
+]

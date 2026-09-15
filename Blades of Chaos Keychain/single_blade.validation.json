@@ -1,0 +1,28 @@
+{
+  "style": "single",
+  "version": 2,
+  "dimensions_mm": [
+    90.0,
+    31.31752493746088,
+    9.29977048046025
+  ],
+  "triangles": 190380,
+  "vertices": 95190,
+  "volume_cm3": 4.894811567389252,
+  "keyring_hole_mm": 4.6,
+  "mesh_pitch_mm": 0.16,
+  "minimum_foundation_mm": 2.4,
+  "geometry_checks": [
+    "one connected shell",
+    "watertight edge manifold",
+    "consistent winding",
+    "finite nondegenerate STL facets",
+    "positive volume",
+    "support-free underside",
+    "valid CadQuery foundation",
+    "exact planar-domain coverage"
+  ],
+  "self_intersection_control": "Top is a single-valued positive height graph over a constrained, non-overlapping planar triangulation; bottom is Z=0; boundary walls are vertical.",
+  "export_units": "millimeter",
+  "physical_print_tested": false
+}

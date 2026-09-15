@@ -1,0 +1,10 @@
+cadquery==2.6.1
+numpy>=2.2,<2.5
+scipy==1.15.3
+shapely==2.1.2
+triangle==20250106
+Pillow>=11
+trimesh>=4.6
+fast-simplification==0.2.0
+rtree==1.4.1
+ezdxf>=1.4
